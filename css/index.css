@@ -90,14 +90,15 @@ header {
 
 #innovation {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     max-width: 100%;
-    flex-wrap: wrap;
+    margin: 5% 0 1% 0;
 }
 
 .innovationClass {
     display: flex;
+    margin-left: 10%;
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
@@ -112,6 +113,14 @@ header {
     background-color: white;
     border: 1px solid black;
     width: 120px;
+}
+
+.codeSnippet img {
+
+    margin-left: 30%;
+    max-width: 80%;
+    height:auto;
+
 }
 
 .sectionOne {
@@ -163,6 +172,12 @@ header {
         margin: 2.5% 0;
         order: -1;
     }
+
+    .innovationClass {
+        display: flex;
+        margin-left: 0%;
+    }
+
     .sectionOne {
         border-top: 1px solid black;
         padding-top: 5%;
@@ -207,6 +222,7 @@ header {
         text-align: center;
         margin-left: 8%;
         height: 30vh;
+        margin-bottom: -15%
     }
     .sectionOne {
         width: 100%;
